@@ -64,3 +64,12 @@ Utilizando a mesma base de dados dos repositórios anteriores de alunos e cursos
 <img src="https://user-images.githubusercontent.com/109769171/230122486-ae4bb719-3f13-49f4-8c40-033b8e38e250.png" width="980px" />
 </div>
 </br>
+
+<br>
+ 8 - Realizando uma consulta no banco de dados de 3 tabelas diferentes usando 2x o JOIN para isso. 
+ </br>
+<br>
+<div>
+<img src="https://user-images.githubusercontent.com/109769171/230170709-2e245aee-d78a-4508-89cd-1e81516c02f5.png" width="980px" />
+</div>
+</br>

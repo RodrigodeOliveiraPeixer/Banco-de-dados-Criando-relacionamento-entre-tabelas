@@ -46,3 +46,12 @@ Utilizando a mesma base de dados dos repositórios anteriores de alunos e cursos
 <img src="https://user-images.githubusercontent.com/109769171/229985313-b3511bf7-bb48-437c-bbf6-367a8d48fcf7.png" width="980px" />
 </div>
 </br>
+
+<br>
+ 6 - Criando a tabela de relacionamento de muitos para muitos definida como tabela assiste onde será vinculado as chaves estrangeiras das duas tabelas que terão relacionamento com esta nova tabela 
+</br>
+<br>
+<div>
+<img src="https://user-images.githubusercontent.com/109769171/230105956-2ef73b44-0e4d-41d1-bee4-8830d49d1a0d.png" width="980px" />
+</div>
+</br>

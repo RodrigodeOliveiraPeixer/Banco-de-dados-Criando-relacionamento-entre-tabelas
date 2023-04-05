@@ -28,3 +28,12 @@ Utilizando a mesma base de dados dos repositórios anteriores de alunos e cursos
 <img src="https://user-images.githubusercontent.com/109769171/229979126-11e74b20-bbd8-4625-9b33-88ca09d3b864.png" width="980px" />
 </div>
 </br>
+
+<br>
+ 4 - Conferindo todas as chaves estrangeiras que foram cadastradas e vendo se não faltou nenhuma.
+</br>
+<br>
+<div>
+<img src="https://user-images.githubusercontent.com/109769171/229980418-90a933d9-e381-46a8-9469-a02a370bd2fb.png" width="980px" />
+</div>
+</br>

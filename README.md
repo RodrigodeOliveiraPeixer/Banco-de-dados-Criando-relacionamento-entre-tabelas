@@ -57,7 +57,7 @@ Utilizando a mesma base de dados dos repositórios anteriores de alunos e cursos
 </br>
 
 <br>
- 7 - Realizando um INSERT INTO para inserir na tabela aluno_assiste_curso um aluno assistindo um determinado curso
+7 - Realizando um INSERT INTO para inserir na tabela aluno_assiste_curso um aluno assistindo um determinado curso
 </br>
 <br>
 <div>

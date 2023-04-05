@@ -12,3 +12,11 @@ ALTER TABLE alunos
 ADD FOREIGN KEY (cursopreferido)
 REFERENCES cursos(idcurso);
 
+
+3 - Realizando o update para vincular os cursos preferidos aos alunos, neste caso como temos muitos alunos é necessário fazer um por um.
+
+update alunos set cursopreferido = '6' where id = '1';
+
+4 - Conferindo todas as chaves estrangeiras que foram cadastradas e vendo se não faltou nenhuma.
+
+select * from alunos;

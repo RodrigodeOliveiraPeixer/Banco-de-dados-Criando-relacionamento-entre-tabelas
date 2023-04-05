@@ -20,3 +20,9 @@ update alunos set cursopreferido = '6' where id = '1';
 4 - Conferindo todas as chaves estrangeiras que foram cadastradas e vendo se não faltou nenhuma.
 
 select * from alunos;
+
+5 - Realizando a pesquisa para ver todos os alunos e seus respectivos cursos preferido com id do curso e nome do curso e ano, utilizando o JOIN e o ON para este filtro ficar mais otimizado
+ 
+select alunos.nome, alunos.cursopreferido, cursos.nome, cursos.ano
+from alunos join cursos
+on cursos.idcurso = alunos.cursopreferido;

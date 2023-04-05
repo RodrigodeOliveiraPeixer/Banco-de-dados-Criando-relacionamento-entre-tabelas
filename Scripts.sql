@@ -44,3 +44,12 @@ CREATE TABLE aluno_assiste_curso(
 
 INSERT INTO aluno_assiste_curso VALUES
 (DEFAULT, '2014-03-01', '1', '2');
+
+
+ 8 - Realizando uma consulta no banco de dados de 3 tabelas diferentes usando 2x o JOIN para isso. 
+ 
+select g.nome, c.nome from alunos g
+join aluno_assiste_curso a
+on g.id = a.idaluno
+join cursos c
+on c.idcurso = a.idcurso;

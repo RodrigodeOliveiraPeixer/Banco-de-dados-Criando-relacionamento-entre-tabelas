@@ -5,3 +5,10 @@ Utilizando a mesma base de dados dos repositórios anteriores de alunos e cursos
 
 ALTER TABLE alunos
 ADD COLUMN cursopreferido int;
+
+2 - Efetuar um novo alter table para criar a chave estrangeria com um FOREIGN KEY cursos(idcurso) para vincular a chave primária da tabela cursos para criar o relacionamento e conferir depois na tabela se cursopreferido esta com a descrição MUL que é de chave multipla também verificar está do mesmo tipo no caso INT  e com a mesma quantidade de caracters 11 no caso, sempre deve ser igual a da chave primária da outra tabela que está sendo relacionada.
+
+ALTER TABLE alunos
+ADD FOREIGN KEY (cursopreferido)
+REFERENCES cursos(idcurso);
+

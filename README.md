@@ -37,3 +37,12 @@ Utilizando a mesma base de dados dos repositórios anteriores de alunos e cursos
 <img src="https://user-images.githubusercontent.com/109769171/229980418-90a933d9-e381-46a8-9469-a02a370bd2fb.png" width="980px" />
 </div>
 </br>
+
+<br>
+ 5 - Realizando a pesquisa para ver todos os alunos e seus respectivos cursos preferido com id do curso e nome do curso e ano, utilizando o JOIN e o ON para este filtro ficar mais otimizado
+</br>
+<br>
+<div>
+<img src="https://user-images.githubusercontent.com/109769171/229985313-b3511bf7-bb48-437c-bbf6-367a8d48fcf7.png" width="980px" />
+</div>
+</br>

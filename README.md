@@ -55,3 +55,12 @@ Utilizando a mesma base de dados dos repositórios anteriores de alunos e cursos
 <img src="https://user-images.githubusercontent.com/109769171/230105956-2ef73b44-0e4d-41d1-bee4-8830d49d1a0d.png" width="980px" />
 </div>
 </br>
+
+<br>
+ 7 - Realizando um INSERT INTO para inserir na tabela aluno_assiste_curso um aluno assistindo um determinado curso
+</br>
+<br>
+<div>
+<img src="https://user-images.githubusercontent.com/109769171/230122486-ae4bb719-3f13-49f4-8c40-033b8e38e250.png" width="980px" />
+</div>
+</br>

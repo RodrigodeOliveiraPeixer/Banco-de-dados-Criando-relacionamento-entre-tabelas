@@ -26,3 +26,21 @@ select * from alunos;
 select alunos.nome, alunos.cursopreferido, cursos.nome, cursos.ano
 from alunos join cursos
 on cursos.idcurso = alunos.cursopreferido;
+
+6 - Criando a tabela de relacionamento de muitos para muitos definida como tabela assiste onde será vinculado as chaves estrangeiras das duas tabelas que terão relacionamento com esta nova tabela 
+
+CREATE TABLE aluno_assiste_curso(
+	id INT NOT NULL AUTO_INCREMENT,
+	DATA date,
+	idaluno INT,
+	idcurso INT,
+	PRIMARY KEY(id),
+	FOREIGN KEY (idaluno) REFERENCES alunos(id),
+	FOREIGN KEY (idcurso) REFERENCES cursos(idcurso)
+)DEFAULT CHARSET = utf8;
+
+
+7 - Realizando um INSERT INTO para inserir na tabela aluno_assiste_curso um aluno assistindo um determinado curso
+
+INSERT INTO aluno_assiste_curso VALUES
+(DEFAULT, '2014-03-01', '1', '2');
